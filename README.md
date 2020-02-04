@@ -8,5 +8,7 @@ Simply run Analysis.py in terminal followed by the stock you want to search:
 
 > python Analysis.py tsla
 
-The command will show you the stock current value and will read the give you the sentimental value of the latest two news articles in google news by scrapping the paragraphs of these sites. You can read the article yourself without navigating to google news, just by adding 'print(blob)' at the end of the for loop inside the function pages.
+The command will show you the stock current value and will read the give you the sentimental value of the latest two news articles in google news by scrapping the paragraphs of these sites. You can read the article yourself without navigating to google news, just by adding 'print(blob)' at the end of the for loop inside the function called pages.
+
+If the input given is not a stock it will still give you the sentimental and subjectivity value of the search query.
 
